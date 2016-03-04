@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="143.0" prefWidth="255.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="num2.LatinTranslatorController">
+   <children>
+      <Button fx:id="sinisterButton" layoutX="32.0" layoutY="38.0" mnemonicParsing="false" onAction="#sinister" text="sinister" />
+      <Button fx:id="dexterButton" layoutX="102.0" layoutY="38.0" mnemonicParsing="false" onAction="#dexter" text="dexter" />
+      <Button fx:id="mediumButton" layoutX="168.0" layoutY="38.0" mnemonicParsing="false" onAction="#medium" text="medium" />
+      <Label fx:id="latinLabel" layoutX="113.0" layoutY="14.0" text="Latin" />
+      <Label fx:id="englishLabel" layoutX="108.0" layoutY="80.0" text="English" />
+      <Label fx:id="outputLabel" layoutX="109.0" layoutY="106.0" prefHeight="17.0" prefWidth="60.0" />
+   </children>
+</AnchorPane>
